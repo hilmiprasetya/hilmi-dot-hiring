@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/cta_login'))
 WebUI.verifyElementText(findTestObject('Object Repository/allert_if_username_empty'), 'The email address or mobile number you entered isn\'t connected to an account. Find your account and log in.')
 
 //Check if value email n password is incorrect
-WebUI.setText(findTestObject('Object Repository/input_Log in to Facebook_email'), 'bukan email benar')
+WebUI.setText(findTestObject('Object Repository/input_Log in to Facebook_email'), 'bukan email yang benar')
 
 WebUI.click(findTestObject('Object Repository/cta_login2'))
 
